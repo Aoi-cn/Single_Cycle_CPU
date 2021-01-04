@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Thu Nov 19 07:57:32 2020
+# Process ID: 13624
+# Current directory: D:/Desktop/single-cycle-CPU-master/code/SingleCycleCPU
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5696 D:\Desktop\single-cycle-CPU-master\code\SingleCycleCPU\SingleCycleCPU.xpr
+# Log file: D:/Desktop/single-cycle-CPU-master/code/SingleCycleCPU/vivado.log
+# Journal file: D:/Desktop/single-cycle-CPU-master/code/SingleCycleCPU\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Desktop/single-cycle-CPU-master/code/SingleCycleCPU/SingleCycleCPU.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source TestSingleCycleCpu.tcl
+restart
+run 5 ns
+run 5000 ns
+close_sim
